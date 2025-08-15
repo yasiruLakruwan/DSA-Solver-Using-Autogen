@@ -4,7 +4,7 @@ import os
 from config.constant import *
 
 load_dotenv()
-api_key = os.getenv('GEMINI_API_KEY')
+api_key = os.getenv('GEMINI_API_KEY2')
 
 def model_client():
     model_client = OpenAIChatCompletionClient(model=MODEL, api_key=api_key)
