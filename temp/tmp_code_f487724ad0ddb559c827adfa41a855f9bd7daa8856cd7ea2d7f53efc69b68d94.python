@@ -1,0 +1,18 @@
+def add_numbers(x, y):
+  """
+  Adds two numbers together.
+
+  Args:
+    x: The first number.
+    y: The second number.
+
+  Returns:
+    The sum of x and y.
+  """
+  return x + y
+
+# Example usage (you can change these values)
+num1 = 10
+num2 = 5
+sum_result = add_numbers(num1, num2)
+print(sum_result)
