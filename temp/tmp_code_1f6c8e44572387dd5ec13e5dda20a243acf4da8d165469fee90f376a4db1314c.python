@@ -1,0 +1,20 @@
+def greet(name):
+  """
+  Greets the person passed in as a parameter.
+
+  Args:
+    name: The name of the person to greet.
+
+  Returns:
+    A greeting message.  Returns an empty string if name is not a string.
+  """
+  if isinstance(name, str):
+    return f"Hello, {name}!"
+  else:
+    return ""
+
+# Example Usage
+name1 = "Alice"
+name2 = 123
+print(greet(name1))
+print(greet(name2))

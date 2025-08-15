@@ -6,4 +6,5 @@ dotenv
 openai
 tiktoken
 
-"autogen-ext[docker]"
+#"autogen-ext[docker]"
+streamlit
